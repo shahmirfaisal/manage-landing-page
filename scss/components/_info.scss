@@ -1,0 +1,23 @@
+.info {
+  padding: 5rem 0;
+  background-image: url("../images/bg-simplify-section-desktop.svg");
+  background-color: $primary-color;
+  margin-top: 15rem;
+
+  .row > .col-md-4 {
+    text-align: right;
+  }
+
+  @media (max-width: 767px) {
+    .row > .col-md-4 {
+      text-align: center;
+      margin-top: 5rem;
+    }
+  }
+
+  &__heading {
+    color: white;
+    font-weight: 500;
+    font-size: 4rem;
+  }
+}

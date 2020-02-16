@@ -1,0 +1,15 @@
+.main {
+  margin-top: 6rem;
+  @media (max-width: 767px) {
+    flex-direction: column-reverse;
+  }
+
+  &__heading {
+    font-weight: 700;
+    font-size: 5rem;
+  }
+
+  &__img {
+    width: 100%;
+  }
+}

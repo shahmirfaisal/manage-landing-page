@@ -1,0 +1,38 @@
+@mixin button($bgColor, $textColor) {
+  background-color: $bgColor;
+  color: $textColor;
+  box-shadow: 0 3px 15px rgba($bgColor, 0.4);
+
+  &:hover {
+    background-color: rgba($bgColor, 0.8);
+    color: $textColor;
+  }
+}
+
+.button {
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 300px;
+  transition: all 0.3s;
+  &:hover {
+    text-decoration: none;
+  }
+
+  &--primary {
+    @include button($primary-color, white);
+  }
+
+  &--white {
+    @include button(white, $primary-color);
+  }
+}
+
+.paragraph {
+  font-size: 1.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}

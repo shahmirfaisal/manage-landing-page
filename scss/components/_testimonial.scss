@@ -1,0 +1,59 @@
+.testimonial-container {
+  margin-top: 10rem;
+}
+
+.testimonial {
+  margin: 8rem 0 6rem 0;
+
+  &__track {
+    width: 100%;
+    cursor: grab;
+    overflow-x: hidden;
+  }
+
+  &__slides {
+    display: flex;
+    list-style-type: none;
+  }
+
+  &__slide {
+    max-width: 400px;
+  }
+
+  &__img {
+    width: 8rem;
+    display: block;
+    margin: 0 auto;
+  }
+
+  &__name {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 2rem 0;
+  }
+
+  .paragraph {
+  }
+
+  &__bullets {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  &__bullet {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    margin: 0 0.5rem;
+    transition: all 0.3s;
+    cursor: pointer;
+  }
+
+  .glide__bullet--active {
+    background-color: $primary-color;
+  }
+}

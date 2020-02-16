@@ -1,0 +1,41 @@
+.services-container {
+  margin-top: 15rem;
+}
+
+.services {
+  &__service {
+    margin-bottom: 4rem;
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 767px) {
+      background-color: rgba($primary-color, 0.2);
+      border-radius: 100px;
+      width: calc(100% + 200px);
+    }
+  }
+
+  &__badge {
+    background-color: $primary-color;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.4rem 2rem 0.6rem 2rem;
+    border-radius: 100px;
+  }
+
+  &__heading {
+    margin-left: 2rem;
+  }
+
+  .paragraph {
+    transform: translateX(8rem);
+    margin-top: 1rem;
+
+    @media (max-width: 1110px) {
+      transform: translateX(0);
+    }
+  }
+}

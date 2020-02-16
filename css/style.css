@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Be Vietnam", sans-serif;
+  overflow-x: hidden;
+}
+
+button:focus {
+  outline: none;
+}
+
+.button {
+  padding: 1rem 3rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 300px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button--primary {
+  background-color: #f25f3a;
+  color: white;
+  -webkit-box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+          box-shadow: 0 3px 15px rgba(242, 95, 58, 0.4);
+}
+
+.button--primary:hover {
+  background-color: rgba(242, 95, 58, 0.8);
+  color: white;
+}
+
+.button--white {
+  background-color: white;
+  color: #f25f3a;
+  -webkit-box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
+          box-shadow: 0 3px 15px rgba(255, 255, 255, 0.4);
+}
+
+.button--white:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #f25f3a;
+}
+
+.paragraph {
+  font-size: 1.5rem;
+}
+
+.section-heading {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.navbar {
+  padding-top: 3rem;
+}
+
+.navbar .nav-link {
+  color: black;
+  font-size: 1.45rem;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 991px) {
+  .navbar__button {
+    display: none;
+  }
+}
+
+.navbar__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.main {
+  margin-top: 6rem;
+}
+
+@media (max-width: 767px) {
+  .main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+.main__heading {
+  font-weight: 700;
+  font-size: 5rem;
+}
+
+.main__img {
+  width: 100%;
+}
+
+.services-container {
+  margin-top: 15rem;
+}
+
+.services__service {
+  margin-bottom: 4rem;
+}
+
+.services__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  .services__header {
+    background-color: rgba(242, 95, 58, 0.2);
+    border-radius: 100px;
+    width: calc(100% + 200px);
+  }
+}
+
+.services__badge {
+  background-color: #f25f3a;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.4rem 2rem 0.6rem 2rem;
+  border-radius: 100px;
+}
+
+.services__heading {
+  margin-left: 2rem;
+}
+
+.services .paragraph {
+  -webkit-transform: translateX(8rem);
+          transform: translateX(8rem);
+  margin-top: 1rem;
+}
+
+@media (max-width: 1110px) {
+  .services .paragraph {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.testimonial-container {
+  margin-top: 10rem;
+}
+
+.testimonial {
+  margin: 8rem 0 6rem 0;
+}
+
+.testimonial__track {
+  width: 100%;
+  cursor: -webkit-grab;
+  cursor: grab;
+  overflow-x: hidden;
+}
+
+.testimonial__slides {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.testimonial__slide {
+  max-width: 400px;
+}
+
+.testimonial__img {
+  width: 8rem;
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonial__name {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin: 2rem 0;
+}
+
+.testimonial__bullets {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 1rem;
+}
+
+.testimonial__bullet {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #f25f3a;
+  margin: 0 0.5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.testimonial .glide__bullet--active {
+  background-color: #f25f3a;
+}
+
+.info {
+  padding: 5rem 0;
+  background-image: url("../images/bg-simplify-section-desktop.svg");
+  background-color: #f25f3a;
+  margin-top: 15rem;
+}
+
+.info .row > .col-md-4 {
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .info .row > .col-md-4 {
+    text-align: center;
+    margin-top: 5rem;
+  }
+}
+
+.info__heading {
+  color: white;
+  font-weight: 500;
+  font-size: 4rem;
+}
+/*# sourceMappingURL=style.css.map */

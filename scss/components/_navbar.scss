@@ -1,0 +1,33 @@
+.navbar {
+  padding-top: 3rem;
+
+  &-brand {
+  }
+
+  &__img {
+  }
+
+  .nav-link {
+    color: black;
+    font-size: 1.45rem;
+    margin-right: 1rem;
+    font-weight: 500;
+
+    &:hover {
+      color: rgba(black, 0.4);
+    }
+  }
+  &__button {
+    @media (max-width: 991px) {
+      display: none;
+    }
+  }
+
+  &__menu {
+  }
+
+  &__icon {
+    width: 20px;
+    height: 20px;
+  }
+}
