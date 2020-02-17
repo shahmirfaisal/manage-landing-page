@@ -12,8 +12,6 @@ html {
 body {
   font-family: "Be Vietnam", sans-serif;
   overflow-x: hidden;
-  background-image: url("../images/bg-tablet-pattern.svg");
-  background-repeat: no-repeat;
 }
 
 button:focus,
