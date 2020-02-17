@@ -6,7 +6,6 @@
   margin: 8rem 0 6rem 0;
 
   &__track {
-    width: 100%;
     cursor: grab;
     overflow-x: hidden;
   }
@@ -17,7 +16,7 @@
   }
 
   &__slide {
-    max-width: 400px;
+    max-width: 300px;
   }
 
   &__img {

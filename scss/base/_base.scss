@@ -11,9 +11,14 @@ html {
 body {
   font-family: "Be Vietnam", sans-serif;
   overflow-x: hidden;
+  background-image: url("../images/bg-tablet-pattern.svg");
+
+  background-repeat: no-repeat;
+  // background-position: 140% -20%;
 }
 
-button {
+button,
+input {
   &:focus {
     outline: none;
   }

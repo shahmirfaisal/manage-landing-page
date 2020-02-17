@@ -5,6 +5,7 @@
 .services {
   &__service {
     margin-bottom: 4rem;
+    overflow-x: hidden;
   }
 
   &__header {
@@ -14,7 +15,6 @@
     @media (max-width: 767px) {
       background-color: rgba($primary-color, 0.2);
       border-radius: 100px;
-      width: calc(100% + 200px);
     }
   }
 
