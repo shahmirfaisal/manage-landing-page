@@ -197,10 +197,6 @@ input:focus {
   list-style-type: none;
 }
 
-.testimonial__slide {
-  max-width: 300px;
-}
-
 .testimonial__img {
   width: 8rem;
   display: block;
